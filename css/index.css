@@ -1,0 +1,135 @@
+#intro{
+	height: 60vh;
+	color: black;
+	background-image: url('../images/indexBG.png');
+	background-size: cover;
+}
+
+#welcome{
+	padding: 70px 80px 20px;
+	font-style: italic;
+	color: black;
+}
+
+#intro h1{
+	padding: 0px 80px;
+	color: #ff5a58;
+	font-size: 300%;
+}
+
+#aboutus{
+	padding: 50px 80px 20px;
+	color: #5e3c37;
+}
+
+#intro p{
+	line-height: 1.5;
+	padding-left: 80px;
+	padding-right: 60%;
+}
+
+#joinus{
+	padding: 50px 230px;
+}
+
+#joinus a{
+	text-decoration: none;
+	color: #ff5a58;
+	border-radius: 20px;
+	padding: 10px 25px;
+	border: 1.5px solid black;
+}
+
+#history{
+	display: flex;
+	align-items: center;
+	background-color: #ece0cf;
+}
+
+#historyImage{
+	height: 350px;
+	padding: 50px;
+}
+
+#history h3{
+	padding-left: 30%;
+	padding-bottom: 30px;
+	color: #5e3c37;
+}
+
+#history p{
+	line-height: 1.5;
+	padding-right: 15%;
+}
+
+#menu{
+	height: auto;
+	background-color: #d1a184;
+	padding-bottom: 70px;
+}
+
+#menu h3{
+	text-align: center;
+	padding-top: 30px;
+	color: #ff5a58;
+}
+
+#menu ol{
+	padding-top: 40px;
+	line-height: 3;
+	padding-left: 38%;
+}
+
+#menu ol li{
+	border-bottom: 1px dashed black;
+	width: 350px;
+}
+
+#menu ol span{
+	float: right;
+	color: #ece0cf;
+}
+
+#order{
+	padding-top: 40px;
+	text-align: center;
+}
+
+#order a{
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+	padding: 10px 25px;
+	border: 1.5px solid black;
+}
+
+#coffeetypes{
+	color: white;
+	background-color: #382b21;
+	height: auto;
+	padding-bottom: 40px;
+}
+
+#coffeetypes h2{
+	padding: 40px 80px;
+	color: #ece0cf;
+}
+
+.typelogo{
+	width: 200px;
+}
+
+.types{
+	display: flex;
+	align-items: center;
+	padding: 40px 120px;
+}
+
+.types p{
+	padding: 0px 80px;
+	line-height: 2;
+}
+
+#buttonhome{
+	color: #ff5a58;
+}

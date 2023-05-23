@@ -1,0 +1,72 @@
+/*
+	border: 1px solid black;
+	GOLD: #b29b52
+	SUBLIME GREY: #21262a
+	HEADER GREY: #1d1c1d
+	CREAM: #ece0cf
+	RED: #ff5a58
+	LIGHT BROWN: #d1a184
+	DARK BROWN: #c68a65
+	DARKER BROWN: #5e3c37
+	BROWN CUP: #382b21
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat';
+	/*box-sizing: border-box; /* allow width and height to be exact */
+}
+
+header {
+	margin: 0px;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px 5%;
+}
+
+#logo{
+	width: 80px;
+}
+
+header nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+header nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding: 10px 80px;
+	display: flex;
+}
+
+footer div{
+	flex: 1;
+}
+
+#footername img{
+	width: 80px;
+	padding-left: 20px;
+}
+
+#footername h3{
+	color: #ff5a58;
+}
+
+footer div h3{
+	padding-bottom: 10px;
+	color: #ece0cf;
+}
+
+#location li{
+	line-height: 1.5;
+}

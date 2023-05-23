@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />	
+	<meta name="description" content="Web development" />
+	<meta name="keywords"    content="Register" />
+	<meta name="author"      content="Khang Duy Nguyen" />
+	<title>Register</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/register.css" rel="stylesheet" type="text/css" />
+	<script src="js/register.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body>
+	<header>
+		<div>
+			<img id="logo" src="images/logo.png">
+		</div>
+		<h2>Dreamy Cafe</h2>
+		<nav>
+			<ul>
+				<li><a id="buttonhome" href="index.html">home</a></li>
+				<li><a id= "buttonregister" href="register.html">register</a></li>
+				<li><a id= "buttonorder" href="order.html">order</a></li>
+				<li><a id="buttonfeatures" href="features.html">features</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<form id="regform" method="post"
+				action="http://mercury.swin. edu.au/it000000/cos1 0005/regtest.php">
+			<h1>Registration</h1>
+			<div>
+				<label for="name">Name<br></label>
+				<input type="textbox" id="name">
+			</div>
+			<div>
+				<label for="pwd">Password</label>
+				<input type="password" id="pwd">
+			</div>
+			<div>
+				<label for="email">Email</label>
+				<input type="textbox" id="email">
+			</div>
+			<div>
+				<label for="favorite">Favorite coffee type</label>
+				<select id="favorite">
+					<option value="espresso">Espresso</option>
+					<option value="cappuccino">Cappuccino</option>
+					<option value="latte">Latte</option>
+				</select>
+			</div>
+			<div id="gender">
+				<label>Gender</label>
+				<input id="genm" type="radio" name="gender" value="M" />
+				<label for="genm">Male</label>
+				<input id="genf" type="radio" name="gender" value="F" />
+				<label for="genf">Female</label>
+				<input id="geno" type="radio" name="gender" value="O" />
+				<label for="geno">Other</label>
+			</div>
+			<div id="buttoninput">
+			<input type="submit" value="Register" />
+			</div>
+		</form>
+	</main>
+
+	<footer>
+		<div id="footername">
+			<h3>Dreamy Cafe</h3>
+			<img id="logo" src="images/logo.png">
+		</div>
+		<div id="location">
+			<h3>Our locations</h3>
+			<ol>
+				<li>A35 Bạch Đằng, Ward 2, Tân Bình District, <br>Hồ Chí Minh city, Vietnam</li>
+				<li>12 Đồng Khởi, Ward 3, District 1, <br>Hồ Chí Minh city, Vietnam</li>
+			</ol>
+		</div>
+		<div id="contactus">
+			<h3>Contact us</h3>
+			<p>+84 38 748 2345</p>
+		</div>
+	</footer>
+</body>
+</html>

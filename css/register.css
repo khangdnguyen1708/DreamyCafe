@@ -1,0 +1,67 @@
+main{
+	background-image: url('../images/formBG.webp');
+	background-size: cover;
+	height: auto;
+	background-color: #ece0cf;
+	justify-content: center;
+	display: flex;
+}
+
+main form{
+	height: 600px;
+	background-color: #ece0cf;
+	border: 2px solid black;
+	padding: 20px 40px;
+	margin: 80px 10%;
+	width: 500px;
+	line-height: 3.3;
+}
+
+main form h1{
+	color: #5e3c37;
+	text-align: center;
+}
+
+label {
+	padding-left: 20px;
+	float: left;
+	text-align: left;
+	width: 10em;
+	margin-right: 1em;
+}
+
+input{
+	height: 30px;
+	border-radius: 10px;
+	width: 195px;
+}
+
+#favorite{
+	width: 200px;
+	text-align: center;
+	padding: 7px 0px;
+	border-radius: 10px;
+}
+
+
+#gender{
+	display: flex;
+	align-items: center;
+}
+
+#gender input{
+	width: 17px;
+}
+
+#gender label{
+	float: none;
+	text-align: left;
+}
+
+#buttoninput{
+	text-align: center;
+}
+
+#buttonregister{
+	color: #ff5a58;
+}

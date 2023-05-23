@@ -1,0 +1,22 @@
+main {
+	height: 70vh;
+	background-image: url('../images/featuresBG.jpeg');
+	background-size: cover;
+}
+
+main h2{
+	padding-top: 40px;
+	padding-left: 50%;
+	color: #5e3c37;
+}
+
+main ol{
+	color: black;
+	line-height: 2.5;
+	padding-top: 40px;
+	padding-left: 40%;
+}
+
+#buttonfeatures{
+	color: #ff5a58;
+}

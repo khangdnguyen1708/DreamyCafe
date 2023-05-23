@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />	
+	<meta name="description" content="Web development" />
+	<meta name="keywords"    content="Order" />
+	<meta name="author"      content="Khang Duy Nguyen" />
+	<title>Order</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/order.css" rel="stylesheet" type="text/css" />
+	<script src="js/order.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
+
+<body>
+	<header>
+		<div>
+			<img id="logo" src="images/logo.png">
+		</div>
+		<h2>Dreamy Cafe</h2>
+		<nav>
+			<ul>
+				<li><a id="buttonhome" href="index.html">home</a></li>
+				<li><a id= "buttonregister" href="register.html">register</a></li>
+				<li><a id= "buttonorder" href="order.html">order</a></li>
+				<li><a id="buttonfeatures" href="features.html">features</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<form id="orderform" method="post" action="http://mercury.swin. edu.au/it000000/cos1 0005/regtest.php">
+			<h1>Order</h1>
+			<div id="deliverytype">
+				<label>Delivery mode</label>
+				<input id="delivery" type="radio" name="deliverytype" value="delivery" onclick="showdelivery(1)"/>
+				<label for="delivery">Delivery</label>
+				<input id="pickup" type="radio" name="deliverytype" value="pickup" onclick="showdelivery(0)"/>
+				<label for="pickup">Pickup</label>
+			</div>
+			<div id="deliveryaddressbox">
+				<label for="deliveryaddress">Delivery address</label>
+				<input type="textbox" id="deliveryaddress">
+				<label>Postcode</label>
+				<input type="textbox" id="postcode">
+				<div id="sameas">
+					<label>Copy address</label>
+					<input id="yes" type="radio" name="sameasoption" value="yes" onclick="copy(1)"/>
+					<label for="yes">Yes</label>
+					<input id="no" type="radio" name="sameasoption" value="no" onclick="copy(0)"/>
+					<label for="no">No</label>
+				</div>
+			</div>
+			<div>
+				<label for="billingaddress">Billing address</label>
+				<input type="textbox" id="billingaddress">
+			</div>
+			<div>
+				<label for="contactnumber">Contact number</label>
+				<input type="textbox" id="contactnumber">
+			</div>
+			<div>
+				<label for="emailreceipt">Email for receipt</label>
+				<input type="textbox" id="emailreceipt">
+			</div>
+			<div id = "payon">
+				<label>Pay on</label>
+				<input id="online" type="radio" name="payingway" value="online" onclick="showpay(1)"/>
+				<label for="online">Online</label>
+				<input id="pickuppay" type="radio" name="payingway" value="pickuppay" onclick="showpay(0)"/>
+				<label for="pickuppay">Pickup</label>
+			</div>
+			<div id="creditinfo">
+				<label for="cardtype">Credit card type</label>
+				<select id="cardtype">
+					<option value="visa">Visa</option>
+					<option value="mastercard">MasterCard</option>
+					<option value="americanexpress">American Express</option>
+				</select>
+				<label for="credit">Credit card information</label>
+				<input type="textbox" id="creditnumber">
+			</div>
+			<div id="buttoninput">
+			<input type="submit" value="Submit" />
+			</div>
+		</form>
+	</main>
+
+	<footer>
+		<div id="footername">
+			<h3>Dreamy Cafe</h3>
+			<img id="logo" src="images/logo.png">
+		</div>
+		<div id="location">
+			<h3>Our locations</h3>
+			<ol>
+				<li>A35 Bạch Đằng, Ward 2, Tân Bình District, <br>Hồ Chí Minh city, Vietnam</li>
+				<li>12 Đồng Khởi, Ward 3, District 1, <br>Hồ Chí Minh city, Vietnam</li>
+			</ol>
+		</div>
+		<div id="contactus">
+			<h3>Contact us</h3>
+			<p>+84 38 748 2345</p>
+		</div>
+	</footer>
+</body>
+</html>
